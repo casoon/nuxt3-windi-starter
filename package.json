@@ -1,0 +1,31 @@
+{
+  "name": "@casoon/nuxt3-windi-starter",
+  "description": "nuxt3 (typescript+windi+pinia) starter project",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/casoon/nuxt3-windi-starter.git"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port=3000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "cross-env": "^7.0.3",
+    "nuxt": "3.0.0-rc.8",
+    "nuxt-vite": "^0.3.5",
+    "nuxt-windicss": "^2.5.1",
+    "@pinia/nuxt": "^0.4.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite-plugin-windicss": "^1.8.7"
+  },
+  "dependencies": {
+    "pinia": "^2.0.21"
+  },
+  "author": "Jörn Seidel <joern.seidel@casoon.de> (https://casoon.de)",
+  "license": "MIT"
+}
