@@ -16,7 +16,6 @@ export default defineNuxtConfig({
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css' }
         ]
     },
     css: ["~/assets/css/global.css"],
