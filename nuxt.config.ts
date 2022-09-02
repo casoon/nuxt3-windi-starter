@@ -32,8 +32,6 @@ export default defineNuxtConfig({
     windicss: {
         analyze: true
     },
-    image: {
-    },
     googleFonts: {
         families: {
             Roboto: true,
