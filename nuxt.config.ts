@@ -32,6 +32,26 @@ export default defineNuxtConfig({
     windicss: {
         analyze: true
     },
+    image: {
+        presets: {
+            test: {
+                modifiers: {
+                    format: 'webp',
+                    width: 300,
+                    height: 200
+                }
+            }
+        },
+        screens: {
+            xs: 320,
+            sm: 640,
+            md: 768,
+            lg: 1024,
+            xl: 1280,
+            xxl: 1536,
+            '2xl': 1536
+        },
+    },
     googleFonts: {
         families: {
             Roboto: true,
